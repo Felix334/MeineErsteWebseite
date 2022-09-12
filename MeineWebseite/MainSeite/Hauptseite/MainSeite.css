@@ -1,0 +1,497 @@
+.backround
+{
+    color: green;
+    width: 100%;
+}
+.Nav-Bar-Container
+{
+    position: relative;
+    width: 100%;
+    height: 183px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: red;
+}
+.Nav-Bar-Content
+{
+    position: relative;
+    color: black;
+    box-sizing: border-box;
+    height: 183px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    right: 20%;
+    top: 5px;
+}
+.Nav-Bar-Top
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 20px;
+    column-gap: 50px;
+    padding-top: 20px;
+    text-align: center;
+    grid-row: 5;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Nav-Bar-Top:hover
+{
+   color:white;
+}
+.advertise-section
+{
+    position: relative;
+    background-color: green;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: normal;
+    width: 1239px;
+    display: flex;
+    height: 2500px;
+    left: 13%;
+    right: auto;
+    color: green;
+    display: flex;
+    align-self: center;
+}
+.first-line
+{
+    width: 20%;
+    height: 80%;
+    position: relative;
+    line-height: 100px;
+    padding-right: 10%;
+    padding-left: 8%;
+    padding-top: 35px;
+}
+.line1-section-part1
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l1-p1
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line1-section-part2
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 15px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l1-p2
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line1-section-part3
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 25px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l1-p3
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line1-section-part4
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l1-p4
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.second-line
+{
+    position: relative;
+    width: 20%;
+    height: 30%;
+    border-color: blue;
+    border-width: 5px;
+    line-height: 150px;
+    padding-right: 10%;
+}
+.line2-section-part1
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l2-p1
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line2-section-part2
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 15px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l2-p2
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line2-section-part3
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 25px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l2-p3
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line2-section-part4
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 35px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l2-p4
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.third-line
+{
+    position: relative;
+    width: 20%;
+    height: 30%;
+    line-height: 150px;
+}
+.line3-section-part1
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l3-p1
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line3-section-part2
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 15px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l3-p2
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line3-section-part3
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 25px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l3-p3
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.line3-section-part4
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 8px solid blue;
+    float: left;
+    top: 35px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.Loading-Error-l3-p4
+{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.advertise-section.relaod-button-line2
+{
+    position: relative;
+    color: blue;
+    height: 20px;
+    width: 20px;
+}
+.advertise-section.relaod-button-line3
+{
+    position: relative;
+    color: blue;
+    height: 20px;
+    width: 20px;
+}
+.relaod-button-line1
+{
+    position: relative;
+    color: blue;
+    height: 50px;
+    width: 50px;
+}
+.head
+{
+    box-sizing: inherit;
+}
+.advertise-section.line1-section-part1.ds-card-line1-part1
+{
+    position: relative;
+    color: blue;
+}
+.search-inner-wrapper
+{
+    bottom:40px;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    left: 550px;
+    width: 194px;
+    border-radius: 5px;
+    border-color: blue; 
+}
+.Search-Bar-Main
+{
+    position: relative;
+    width: 100%;
+    align-self: center;
+    display: block;
+    box-sizing: border-box;
+    background-color: aqua;
+    bottom: 10px;
+    height: 120px;
+}
+.search-box 
+{
+    position: relative;
+    top: 85%;
+    transform: translate(-50%,-50%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 190%;
+    margin-left: 150%;
+    border-color: black;
+    border: 2px solid black;
+}
+.search-box:hover
+{
+    border: 3px solid black;
+} 
+.search-text
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 95%;
+    position: relative;
+    left: 9px;
+}
+input[type="search"]::-webkit-search-cancel-button
+{
+    display: none;
+}
+input[type="search"]::-webkit-search-results-button
+{
+    width: 10px;
+    height: 10px;
+}
+.adds-searchbar
+{
+    position: relative;
+    width: 450px;
+    height: 33px;
+    bottom: 12px;
+}
+.search-icon.body
+{
+    margin: 0;
+    padding: 0;
+}
+.search-icon
+  {
+    width: 12px;
+    height: 12px;
+    border:6px solid black;
+    left: 335px;
+    position:relative;
+    transform: rotate(-45deg);
+    border-radius:100%
+  }
+  .search-icon::before
+  {
+    content:'';
+    position:absolute;
+    border:3px solid black;
+    height:150%;
+    left:0;
+    right:0;
+    width:0;
+    top:100%;
+    margin:auto;
+    background-color:black;
+  }
+.search-button
+{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    bottom: 38px;
+    float: right;
+    border: none;
+    right: 2px;
+}
+.Side-Options
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    bottom: 130px;
+    left: 1420px;
+}
+.Side-Options-Kattegorie
+{
+    color: black;
+    background-color: rgb(180, 172, 172);
+    padding: 5px;
+    padding-bottom: 3px;
+    font-size: medium;
+    overflow-y: scroll;
+}
+.Side-Options-Line1
+{
+    color: black;
+    background-color: rgb(180, 172, 172);
+    padding: 5px;
+    padding-bottom: 3px;
+}
+.Side-Options-Line2
+{
+    color: black;
+    background-color: rgb(180, 172, 172);
+    padding: 5px;
+    padding-bottom: 3px;
+}
+.Side-Options-Line3
+{
+    color: black;
+    background-color: rgb(180, 172, 172);
+    padding: 5px;
+    padding-bottom: 3px;
+}
+.img-row1-part1
+{
+    width: 50px;
+    height: 50px;
+}

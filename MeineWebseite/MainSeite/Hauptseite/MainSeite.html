@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html class="style-scrollbar" lang="de">
+<head>
+    <script src="https://www.googletagservices.com/activeview/js/current/osd.js"></script>
+    <link href="doc-brush-top.pgn" rel="stylesheet" hreflang="de" type="picture/css">
+    <meta charset="utf-8">
+    <meta name="description" content="Personalisierte Werbung">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Über index informieren-->
+    <link href="MainSeite.css" rel="stylesheet" herflang="de">
+    <link href="launch.json">
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <title>"WerbungNurFürDich.com"</title>
+</head>
+<body>
+    <header>
+        <div class="Nav-Bar-Container">
+            <nav class="Nav-Bar-Top">
+                <a class="Nav-Bar" id="Mein-Profil-Button" href="" title="MeinProfil" hreflang="de">Mein Profil</a>
+                <a class="Nav-Bar" id="Meine-Auswahl-Button" href="" title="MeineAuswahl" hreflang="de">Meine Auswahl</a>
+                <a class="Nav-Bar" id="Support-Main-Button" href="" title="SupportMain" hreflang="de">Support</a>
+                <a class="Nav-Bar" id="FAQ-Main-Button" href="" title="FAQ-Main" hreflang="de">FAQ</a>
+                <a class="Nav-Bar" id="Bugs-Melden-Main-Button" href="" title="BugsMelden" hreflang="de">Bugs melden</a>
+                <a class="Nav-Bar"></a>
+            </nav>
+        </div>
+        <div class="Side-Options">
+            <select class="Side-Options-Kattegorie" id="Side-Options-Id" tittle="Side-Options-Kattegorie" title="Side-Options-Kattegorie">
+                <option value="Optionen">Kattegorie auswählen</option>
+                <option value="option1-Side-Option" id="option1-Side-Option" tittle="Option1-"><p>Technik</p></option>
+                <option value="option2-Side-Option" id="option2-Side-Option" tittle="Option2-"><p>Lebensmittel</p></option>
+                <option value="option3-Side-Option" id="option3-Side-Option" tittle="Option3-"><p>Versicherungen</p></option>
+                <option value="option4-Side-Option" id="option4-Side-Option" tittle="Option4-"><p>Banken und Finazen</p></option>
+                <option value="option5-Side-Option" id="option5-Side-Option" tittle="Option5-"><p>Filme und Serien</p></option>
+                <option value="option6-Side-Option" id="option6-Side-Option" tittle="Option6"><p>Bau- und Werkstoffe</p></option>
+                <option value="option7-Side-Option" id="option7-Side-Option" tittle="Option7-"><p>Computer-Technik</p></option><!--Unfertig-->
+                <option value="option8-Side-Option" id="option8-Side-Option" tittle="Option8-"><p>Neuste Spiele</p></option><!--Unfertig-->
+                <option value="option9-Side-Option" id="option9-Side-Option" tittle="Option9-"><p>Konsolen</p></option><!--Unfertig-->
+                <option value="option10-Side-Option" id="option10-Side-Option" tittle="Option10-"><p>Kleidung</p></option><!--Unfertig-->
+                <option value="option11-Side-Option" id="option11-Side-Option" tittle="Option11-"><p>Streaminganbieter</p></option>
+                <option value="option12-Side-Option" id="option12-Side-Option" tittle="Option1-"><p>Gemischt</p></option>
+            </select>
+        </div>
+    </header>
+    <div class="container">
+        <div class="head-line">
+        </div>
+        <div class="Wilkommen-Main" ref="">
+        </div>
+        <div class="Nav-Bar2-Main" hreflang="de">
+        </div>
+        <div class="Search-Bar-Main" hreflang="de" id="Search-Bar-Main">
+            <div class="search-inner-wrapper">
+                <div class="search-box">
+                    <input class="search-text" type="search" placeholder="Suche Werbung">
+                    <a class="search-btn" href=""></a>
+                <button class="search-button" type="button" id="search-button" title="search-button">
+                </button>
+                    <template data-user-template><!--Warum ist damit die Input box invisible?-->
+                </template>
+                <div class="search-icon" id="search-icon" type="search-icon"></div>
+            </div>
+            </div>
+        </div>
+        <div class="advertise-section">
+            <div class="relaod-button">
+                <span> <!--Die onClick()-Events entfernen-->
+                    <button class="reload-button-all-lines" ref="" onclick="LadeSeiteNeu()" title="Lade alle Reihen neu">
+                    </button>
+                </span>
+            </div>
+            <div class="first-line">
+                <div class="reload-button-line1" ref="" onclick="ReloadLine1()">
+                </div>
+                <div class="Choose-Kategories-line1" onclick="WähleKategorieLine1()">
+                    <div class="select-line1">
+                        <select class="SideOptionsLine1" tittle="SideOptionsLine1" id="SideOptionsIdLine1" aria-label="Side-Option-Line-1">
+                            <option value="Optionen-Line1" id="">Kattegorie für 1.Reihe auswählen</option>
+                            <option value="option1-Line1" id="option1-Line1-id" tittle="Option1-Line1">Technik</option>
+                            <option value="option2-Line1" id="option2-Line1-id" tittle="Option2-Line1">Lebensmittel</option>
+                            <option value="option3-Line1" id="option3-Line1-id" tittle="Option3-Line1">Versicherungen</option>
+                            <option value="option4-Line1" id="option4-Line1-id" tittle="Option4-Line1">Banken und Finazen</option>
+                            <option value="option5-Line1" id="option5-Line1-id" tittle="Option5-Line1">Filme und Serien</option>
+                            <option value="option6-Line1" id="option6-Line1-id" tittle="Option6-Line1">Bau- und Werkstoffe</option>
+                            <option value="option7-Line1" id="option7-Line1v" tittle="Option7-Line1">Computer-Technik</option><!--Unfertig-->
+                            <option value="option8-Line1" id="option8-Line1-id" tittle="Option8-Line1">Neuste Spiele</option><!--Unfertig-->
+                            <option value="option9-Line1" id="option9-Line1-id" tittle="Option9-Line1">Konsolen</option><!--Unfertig-->
+                            <option value="option10-Line1" id="option10-Line1-id" tittle="Option10-Line1">Kleidung</option><!--Unfertig-->
+                            <option value="option11-Line1" id="option11-Line1-id" tittle="Option11-Line1">Streaminganbieter</option>
+                            <option value="option12-Line1" id="option12-Line1-id" tittle="Option12-Line1">Gemischt</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="line1-section">
+                    <div class="line1-section-part1" onclick="AcceptLine1Section1()" id="line1-section1-card">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line1-part1">
+                            <a class="ds-card-link1" href="" id="ad1">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img class="img-row1-part1" src="" crossorigin="" lang="de" alt="row1-part1">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                        <map name="img-line1-part1-click">
+                                            <area shape="rect" coords="" href="" alt="[ReadLine1Part1]">
+                                        </map>
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 1 Reihe 1</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l1-p1" id="Loading-Error-l1-p1">
+                            <p class="Loading-Error-l1-p1">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line1-section-part2" onclick="AcceptLine1Section2()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line1-part2">
+                            <a class="ds-card-link" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 2 Reihe 1</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l1-p2">
+                            <p class="Loading-Error-l1-p2" id="Loading-Error-l1-p2">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line1-section-part3" onclick="AcceptLine1Section3()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line1-part3">
+                            <a class="ds-card-link" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 3 Reihe 1</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l1-p3">
+                            <p class="Loading-Error-l1-p3" id="Loading-Error-l1-p3">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line1-section-part4" onclick="AcceptLine1Section4()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line1-part4">
+                            <a class="ds-card-link-line1-part4" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline1-img4">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 4 Reihe 1</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Loading-Error-l1-p4">
+                    <p class="Loading-Error-l1-p4" id="Loading-Error-l1-p4">Fehler beim Laden</p>
+                </div>
+            </div>
+            <div class="second-line">
+                <div class="reload-button-line2" ref="" onclick="ReloadLine2()">
+                </div>
+                <div class="choose-Kategories-line2" onclick="WähleKategorieLine2()">
+                    <div class="select-line2">
+                        <select class="Side-Options-Line2" id="Side-Options-Id-Line2" title="Side-Options-Line2">
+                            <option value="Optionen-Line2">Kattegorie für 2.Reihe auswählen</option>
+                            <option value="option1-Line2" id="option1-Line2-id" tittle="Option1-Line2">Technik</option>
+                            <option value="option2-Line2" id="option2-Line2-id" tittle="Option2-Line2">Lebensmittel</option>
+                            <option value="option3-Line2" id="option3-Line2-id" tittle="Option3-Line2">Versicherungen</option>
+                            <option value="option4-Line2" id="option4-Line2-id" tittle="Option4-Line2">Banken und Finazen</option>
+                            <option value="option5-Line2" id="option5-Line2-id" tittle="Option5-Line2">Filme und Serien</option>
+                            <option value="option6-Line2" id="option6-Line2-id" tittle="Option6-Line2">Bau- und Werkstoffe</option>
+                            <option value="option7-Line2" id="option7-Line2-id" tittle="Option7-Line2">Computer-Technik</option><!--Unfertig-->
+                            <option value="option8-Line2" id="option8-Line2-id" tittle="Option8-Line2">Neuste Spiele</option><!--Unfertig-->
+                            <option value="option9-Line2" id="option9-Line2-id" tittle="Option9-Line2">Konsolen</option><!--Unfertig-->
+                            <option value="option10-Line2" id="option10-Line2-id" tittle="Option10-Line2">Kleidung</option><!--Unfertig-->
+                            <option value="option11-Line2" id="option11-Line2-id" tittle="Option11-Line2">Streaminganbieter</option>
+                            <option value="option12-Line2" id="option12-Line2-id" tittle="Option12-Line2">Gemischt</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="line2-section">
+                    <div class="line2-section-part1" onclick="AcceptLine2Section1()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line2-part1">
+                            <a class="ds-card-link-line2-part1" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image img-line2-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <div class="headline-2-1">
+                                                <p class="exert clamp">Werbung 1 Reihe 2</p>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l2-p1">
+                            <p class="Loading-Error-l2-p1" id="Loading-Error-l2-p1">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line2-section-part2" onclick="AcceptLine2Section2()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line2-part2">
+                            <a class="ds-card-link" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 2 Reihe 2</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l2-p2">
+                            <p class="Loading-Error-l2-p2" id="Loading-Error-l2-p2">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line2-section-part3" onclick="AcceptLine2Section3()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line2-part3">
+                            <a class="ds-card-link" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 3 Reihe 2</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Loading-Error-l2-p3">
+                            <p class="Loading-Error-l2-p3" id="Loading-Error-l2-p3">Fehler beim Laden</p>
+                        </div>
+                    </div>
+                    <div class="line2-section-part4" onclick="AcceptLine2Section4()">
+                        <form onsubmit="alert(Bestätigen)"></form>
+                        <div class="ds-card-line2-part1">
+                            <a class="ds-card-link" href="">
+                                <!--Link vom Server einfügen-->
+                                <div class="img-wrapper">
+                                    <picture class="ds-image imgline3-img1">
+                                        <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                        <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                    </picture>
+                                </div>
+                                <div class="description">
+                                    <div class="info-wrap">
+                                        <header class="title clamp" title="Werbung7">
+                                            <p class="exert clamp">Werbung 4 Reihe 2</p>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Loading-Error-l2-p4">
+                    <p class="Loading-Error-l2-p4" id="Loading-Error-l2-p4">Fehler beim Laden</p>
+                </div>
+            </div>
+            <div class="third-line">
+                <div class="reload-button-line3" ref="" onclick="ReloadLine3()">
+                </div>
+                <div class="Choose-Kategories-line1" onclick="WähleKategorieLine3()">
+                    <div class="select-line2">
+                        <select class="Side-Options-Line3" id="Side-Options-Id-Line3" title="Side-Options-Line3">
+                            <option value="Optionen-Line3">Kattegorie für 3.Reihe auswählen</option>
+                            <option value="option1-Line3" id="option1-Line3-id" tittle="Option1-Line3">Technik</option>
+                            <option value="option2-Line3" id="option2-Line3-id" tittle="Option2-Line3">Lebensmittel</option>
+                            <option value="option3-Line3" id="option3-Line3-id" tittle="Option3-Line3">Versicherungen</option>
+                            <option value="option4-Line3" id="option4-Line3-id" tittle="Option4-Line3">Banken und Finazen</option>
+                            <option value="option5-Line3" id="option5-Line3-id" tittle="Option5-Line3">Filme und Serien</option>
+                            <option value="option6-Line3" id="option6-Line3-id" tittle="Option6-Line3">Bau- und Werkstoffe</option>
+                            <option value="option7-Line3" id="option7-Line3-id" tittle="Option7-Line3">Computer-Technik</option><!--Unfertig-->
+                            <option value="option8-Line3" id="option8-Line3-id" tittle="Option8-Line3">Neuste Spiele</option><!--Unfertig-->
+                            <option value="option9-Line3" id="option9-Line3-id" tittle="Option9-Line3">Konsolen</option><!--Unfertig-->
+                            <option value="option10-Line3" id="option10-Line3-id" tittle="Option10-Line3">Kleidung</option><!--Unfertig-->
+                            <option value="option11-Line3" id="option11-Line3-id" tittle="Option11-Line3">Streaminganbieter</option>
+                            <option value="option12-Line3" id="option12-Line3-id" tittle="Option12-Line3">Gemischt</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="line3-section">
+                    <div class="body-wrapper on">
+                        <section class="collapsible-section ds-layout" data-section-id="line3-id">
+                            <div class="line3-section-part1" onclick="AcceptLine3Section1()">
+                                <form onsubmit="alert(Bestätigen)"></form>
+                                <div class="ds-card-line3-part1">
+                                    <a class="ds-card-link" href="">
+                                        <!--Link vom Server einfügen-->
+                                        <div class="img-wrapper">
+                                            <picture class="ds-image imgline3-img1">
+                                                <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                                <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                            </picture>
+                                        </div>
+                                        <div class="description">
+                                            <div class="info-wrap">
+                                                <header class="title clamp" title="Werbung7">
+                                                    <p class="exert clamp">Werbung 1 Reihe 3</p>
+                                                </header>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="Loading-Error-l3-p1">
+                                    <p class="Loading-Error-l3-p1" id="Loading-Error-l3-p1">Fehler beim Laden</p>
+                                </div>
+                            </div>
+                            <div class="line3-section-part2" onclick="AcceptLine3Section2()">
+                                <form onsubmit="alert(Bestätigen)"></form>
+                                <div class="ds-card-line3-part2">
+                                    <a class="ds-card-link" href="">
+                                        <!--Link vom Server einfügen-->
+                                        <div class="img-wrapper">
+                                            <picture class="ds-image imgline3-img1">
+                                                <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                                <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                            </picture>
+                                        </div>
+                                        <div class="description">
+                                            <div class="info-wrap">
+                                                <header class="title clamp" title="Werbung7">
+                                                    <p class="exert clamp">Werbung 2 Reihe 3</p>
+                                                </header>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="Loading-Error-l3-p2">
+                                    <p class="Loading-Error-l3-p2" id="Loading-Error-l3-p2">Fehler beim Laden</p>
+                                </div>
+                            </div>
+                            <div class="line3-section-part3" onclick="AcceptLine3Section3()">
+                                <form onsubmit="alert(Bestätigen)"></form>
+                                <div class="ds-card-line3-part3">
+                                    <a class="ds-card-link" href="">
+                                        <!--Link vom Server einfügen-->
+                                        <div class="img-wrapper">
+                                            <picture class="ds-image imgline3-img1">
+                                                <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                                <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) -> Code von Google (Unterer Bereich mit den Boxen)-->
+                                            </picture>
+                                        </div>
+                                        <div class="description">
+                                            <div class="info-wrap">
+                                                <header class="title clamp" title="Werbung7">
+                                                    <p class="exert clamp">Werbung 3 Reihe 3</p>
+                                                </header>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="Loading-Error-l3-p3">
+                                    <p class="Loading-Error-l3-p3" id="Loading-Error-l3-p3">Fehler beim Laden</p>
+                                </div>
+                            </div>
+                            <div class="line3-section-part4" onclick="AcceptLine3Section4()">
+                                <form onsubmit="alert(Bestätigen)"></form>
+                                <div class="ds-card-line3-part4">
+                                    <a class="ds-card-link" href="">
+                                        <!--Link vom Server einfügen-->
+                                        <div class="img-wrapper">
+                                            <picture class="ds-image imgline3-img1">
+                                                <img loading="lazy" crossorigin="anonymous" alt="personal-advertisment">
+                                                <!--mit src="" und srcset =Lade vom Server(Keine Ahnung wie das funktioniert) _> Code von Google (Unterer Bereich mit den Boxen)-->
+                                            </picture>
+                                        </div>
+                                        <div class="description">
+                                            <div class="info-wrap">
+                                                <header class="title clamp" title="Werbung7">
+                                                    <p class="exert-clamp">Werbung 4 Reihe 3</p> 
+                                                </header>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="Loading-Error-l3-p4">
+                                    <p class="Loading-Error-l3-p4" id="Loading-Errorl3p4">Fehler beim Laden</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+</html>

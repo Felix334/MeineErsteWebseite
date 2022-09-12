@@ -1,0 +1,466 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    line-height: 18px;
+    color: black;
+    background-color: rgb(48, 143, 48);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.Form-Box
+{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: rgb(0, 238, 255);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+h1 
+{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 20px; 
+}
+.Form-Holder
+{
+    align-items: center;
+}
+
+.vnr-box
+{
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Vor-name
+{
+    left: 11px;
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+}
+.nnr-box
+{
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Nach-name
+{
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    left: 11px;
+    font-weight: bold;
+}
+.bnr-box
+{
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Benutzer-Name
+{
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    left: 11px;
+    font-weight: bold;
+}
+.emr-box
+{
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Email
+{
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    left: 11px;
+    font-weight: bold;
+}
+.pswr-box
+{
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Password
+{
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    left: 11px;
+    font-weight: bold;
+}
+.pswr-confrim-box
+{
+    position: relative;
+    margin: 10px auto;
+    width: 40%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 60px;
+    background-size: 150%;
+    height: 27px;
+    top:75%;
+}
+.Password-Reg-Confirm
+{
+    position: relative;
+    top:29%;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    left: 11px;
+    font-weight: bold;
+}
+.Registrieren-Button
+{
+    position: relative;
+    left: 40%;
+    width: 95px;
+    height: 35px;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}
+.Registrieren-Button:hover
+{
+    background-color: rgb(0, 102, 255);
+}
+.Registrieren-Button:active
+{
+    background-color: aqua;
+}
+.generate-new-password-button
+{
+    position:absolute;
+    left:57%;
+    top:59%;
+}
+.Status-Reg-Entry
+{
+ text-align: center;
+ height: 30px;
+}
+
+navibar .navibar-inner .container-fluid
+{
+    padding:0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    color: #fff;   
+}
+
+.container-fluid 
+{
+    max-width: 1250px;
+}
+
+.container-fluid
+{
+    max-width: 1250px;
+}
+
+.container-fluid
+{
+    max-width: relative;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.container-fluid
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    zoom: 1;
+}
+
+html 
+    {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+
+    #mainNavi 
+    {
+        position:relative;
+        min-width: 769px;
+    }
+
+Title
+{ 
+    background-image: url('');
+    background-repeat:  no-repeat;
+    background-position: 700px 100% 90%;
+    background-size: 350px 350px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #00080c;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: blue;
+    background-color: #fff;
+    position: relative;
+}
+
+.inner-points-marker
+{
+    height: 2px;
+    width: 2px;
+    color:black;
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow:hidden;
+    margin: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: relative;
+    list-style:disc;
+    list-style-position: outside;
+    list-style-image: none;
+    list-style-type: disc;
+    direction: ltr;
+    color: var;
+}
+
+.background
+{ 
+    background-repeat:  no-repeat;
+    background-position: 700px 100% 90%;
+    background-size: 350px 350px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background: #f7f9fa;
+    margin: auto;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    background-color: #fff;
+    position: relative;
+}
+
+.inner-points
+{
+    height: 2px;
+    width: 2px;
+    color: black;
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow: auto;
+    position: relative; 
+}
+.margin
+{
+    height: 12px;
+    width: 12px;
+    color:blue;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: relative;
+    margin: auto;
+}
+.bottom-points-space
+{
+    position: relative;
+    width: 1500px;
+    height:90px;
+    background-color: rgb(62, 218, 62);
+    width:auto;
+    align-content: center;
+    display: block;
+    border-width: 3px;
+}
+.bottom-points
+{
+    position: relative;
+    align-content: center;
+    top: 20px;
+    display: grid;
+    column-gap: 50px;
+    gap: 20px;
+    row-gap: 0;
+}
+.Über-uns-Point
+{
+    position: relative;
+    left:35%;
+    top: 20px;
+    text-decoration: none;
+}
+.Über-uns
+{
+    font-size: 150%;
+    color: black;
+}
+.Über-uns:hover
+{
+    font-size: 155%;
+    text-decoration: underline;
+}
+.Impressum-Point
+{
+    position: relative;
+    left: 47%;
+    text-decoration: none;
+}
+.Impressum
+{
+    font-size: 150%;
+    color: black;
+}
+.Impressum:hover
+{
+    font-size: 155%;
+    text-decoration: underline;
+}
+.Kontakte-Point
+{
+    position: relative;
+    left: 60%;
+    bottom: 15px;
+    text-decoration: none;
+}
+.Kontakte
+{
+    font-size: 150%;
+    color: black;
+}
+.Kontakte:hover
+{
+    font-size: 155%;
+    text-decoration: underline;
+}
+.addvertise-section
+{
+    height: auto;
+    color: #00080c;
+    width: 150px;
+    margin-left: auto;
+}
+.add-section1
+{
+    position: relative;
+    box-sizing: content-box;
+    background-color: #00080c;
+}
+.add-section1.add-section1-body
+{
+    position: relative;
+    left: 0px;
+    width: 10%;
+    height: 100%;
+    color: aqua;
+}
+
+.alternative-login-p
+{
+    position: relative;
+    width: 400px;
+    left: 25%;
+    top: 10px;
+}
+.hclass-SignInWithDifferentAcc
+{
+    font-size: medium;
+}
+
+.span1SingInWithAccount
+{
+    position: relative;
+    top: 20px;
+    float: right;
+}
+.social-container
+{
+    display: grid;
+    width: 100%;
+    height: 80px;
+}
+.social
+{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    top: 20px;
+    text-align: center;
+    padding: 6px;
+    left: 33%;
+}
+.span1SingInWithAccount
+{
+    position: relative;
+    right: 26%;
+}
+.signInWithAccount
+{
+    position: relative;
+    left: 5px;
+    font-size: medium;
+    color: aqua;
+}
+.signInWithAccount:hover
+{
+    text-decoration: none;
+    color: blue;
+}

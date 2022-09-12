@@ -1,0 +1,22 @@
+{
+    "name": "Registrierung_1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Registrierung_1.js",
+    "author": "Felix",
+    "type": "module",
+    "license": "ISC",
+    "script":{"devStart":"nodemon.js"},
+    "keywords": [],
+"Benutzerdaten":
+{
+    "name": "data",
+    "vorname":"",
+    "nachname":"",
+    "email":"",
+    "username":"",
+    "password":"",
+    "userid":""
+}
+
+}
